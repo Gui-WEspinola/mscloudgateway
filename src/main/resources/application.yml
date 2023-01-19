@@ -7,8 +7,15 @@ spring:
         locator:
           enabled: true
           lower-case-service-id: true
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: "http://localhost:8081/realms/mscourserealm"
+#          token authentication URI configuration. To find the above URI, you need to go to:
+#          keycloak -> choose your realm -> settings -> endpoints -> openID endpoints -> issuer URI
 
-# configuração para detectar lower case no path da rota.
+# configuracao para detectar lower case no path da rota.
 
 server:
   port:
