@@ -10,6 +10,14 @@ The goal of whole project is to practice development using Java Spring Cloud fra
 
 The complete README will be made available in the server repository, with details on how to run all APIs.
 
+[Eureka Server Repository](https://github.com/Gui-WEspinola/eurekaserver)
+
+[Microservice of Customers](https://github.com/Gui-WEspinola/msclientes)
+
+[Microservice of Credit Card](https://github.com/Gui-WEspinola/mscartoes)
+
+[Microservice for Credit Rating](https://github.com/Gui-WEspinola/ms-avaliador-credito)
+
 ### 2. Features
 
 Some of the technologies used to develop and test the current applications are:
